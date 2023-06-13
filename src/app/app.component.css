@@ -1,0 +1,151 @@
+/* PALETA
+  #1D1D1D   p
+  #141414   p
+  #FCFF4B   a
+  #ffad05   botao
+  #FED628   a
+  #FFC217   a
+  #FFAD05   a
+  #F7F0F5   b
+  #3E78B2   az
+*/
+
+section
+{
+  background-color: #141414;
+  padding-left: 143px;
+  padding-right: 143px;
+  padding-bottom: 13vh;
+  padding-top: 2vh;
+}
+
+header
+{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #1D1D1D;
+  box-shadow: 0 0 10px #292929;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1em;
+}
+
+footer{
+  background-color: #1D1D1D;
+}
+
+.container-fluid{
+  background-color: #1D1D1D;
+  height: 7vh;
+  align-items: center;
+}
+
+.dropdown{
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.dropdown-menu{
+  margin-top: 1em;
+  border-radius: 0;
+  background-color: #1D1D1D;
+}
+
+.fa-solid{
+  color: aliceblue;
+  align-items:baseline;
+  margin: 0.2em;
+}
+
+.dropdown-item{
+  color: aliceblue;
+}
+.dropdown-item:hover{
+  background-color: #585757;
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  --bs-navbar-padding-y: 0;
+  margin-right: 22vh;
+  margin-left: 22vh;
+  height: auto;
+}
+
+.dropdown, .nav-link
+{
+  color:aliceblue;
+}
+
+.navbar-brand{
+  padding-left: 0.4em;
+  padding-right: 0.4em ;
+  border-radius: 6%;
+  background-color: #FFAD05;
+  box-shadow: 2px 2px 2px #292929;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+
+.form-control{
+  width: 75vh;
+}
+
+.btn-outline-success{
+  color: #ffad05;
+  border: 1px solid #ffad05;
+}
+.btn-outline-success:hover{
+  background-color: #ffaa006c;
+  color: #F7F0F5;
+
+}
+
+/* footer */
+.text-center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.container-fluid-footer, .footer-text
+{
+  width: 60vh;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #f7f0f5;
+  padding: 3vh;
+  justify-content: center;
+}
+
+.footer-link:hover{
+  opacity: 50%;
+}
+
+.footer-filmtec{
+  text-decoration: none;
+  color: #F7F0F5;
+  margin-right: 3vh;
+}
+
+.fa-brands{
+  padding: 20px;
+}
+
+.fa-brands:hover{
+  opacity: 50%;
+}
+
+.text-center{
+  box-shadow: 0px 0px 0px 40px #141414;
+}

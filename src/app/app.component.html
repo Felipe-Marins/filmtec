@@ -1,0 +1,45 @@
+<header>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong>FilmTec</strong></a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i><strong>Menu</strong>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" [routerLink]="['/serie']">SERIES</a></li>
+          <li><a class="dropdown-item" [routerLink]="['/filme']">FILMES</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" [routerLink]="['/ranking']">RANKING</a></li>
+        </ul>
+      </li>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i> <strong> Favoritos</strong> </a>
+      <a class="nav-link" [routerLink]="['/login']"><strong>Fazer Login</strong></a>
+    </div>
+  </nav>
+</header>
+
+<section>
+  <main class="container">
+    <router-outlet></router-outlet>
+  </main>
+</section>
+
+<footer class="mt-2 p-2 text-center">
+  <div class="container-fluid-footer">
+    <i class="fa-brands fa-square-facebook fa-xl " style="color: #ebebeb;"></i>
+    <i class="fa-brands fa-instagram fa-xl " style="color: #e6e6e6;"></i>
+    <i class="fa-brands fa-twitter fa-xl " style="color: #e6e6e6;"></i>
+    <i class="fa-brands fa-youtube fa-xl " style="color: #e6e6e6;"></i>
+  </div>
+  <div class="footer-text">
+    <a class="footer-link">Licença</a>
+    <a class="footer-link">Termos de Serviço</a>
+    <a class="footer-link">Privacidade</a>
+  </div>
+  <a class="footer-filmtec">© Filmtec, Inc.</a>
+</footer>

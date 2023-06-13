@@ -1,0 +1,65 @@
+#container-geral{
+  margin-left: 50.8vh;
+}
+
+#container-cadastro-login{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-login{
+  border-radius: 10%;
+  width: 60vh;
+  padding-top: 5vh;
+}
+
+.form-label{
+  color: #F7F0F5;
+}
+
+.form-text{
+  color: #5c5b5b;
+  padding-bottom: 1vh;
+}
+
+.btn-outline-primary{
+  margin-top: 3vh;
+  margin-left: 40%;
+  margin-bottom: 28vh;
+}
+
+.form-check{
+  margin-top: 2vh;
+}
+.form-check-label{
+  color: #858585;
+}
+
+#email{
+  margin-top: 4vh;
+}
+
+#container-esqueci{
+  display: flex;
+  justify-content: space-between;
+}
+
+#esqueci{
+  margin-top: 1.9vh;
+}
+
+#esqueci:hover{
+  color: #a8a8a8;
+}
+
+.login-cadastrar{
+  font-size: x-large;
+  color: #FFAD05;
+}
+
+.linha-vertical {
+  margin-top: 1vh;
+  height: 2px;
+  background: rgb(255,173,5);
+  background: linear-gradient(90deg, rgba(255,173,5,1) 40%, rgba(172,169,172,1) 60%);
+}

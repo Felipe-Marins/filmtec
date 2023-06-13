@@ -1,0 +1,90 @@
+#carouselExampleCaptions{
+  height: 400px;
+  width: 1000px;
+}
+
+
+.slide{
+  align-items: flex-start;
+}
+
+.list-group{
+  width: 300px;
+  padding-left: 20px;
+  border-radius: 0;
+}
+.list-group-item-action{
+  background-color: #1D1D1D;
+  min-height: 100px;
+}
+.mb-1{
+  color: #F7F0F5;
+}
+
+.home-inicio{
+  display: flex;
+  padding-top: 20px;
+}
+
+#em-alta{
+  color: #ffad05;
+}
+
+#mais-home{
+  padding-top: 10px;
+  color: #F7F0F5;
+}
+
+#mais-home:hover{
+  color: #ffad05;
+}
+
+.carousel-item{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  margin: 10px;
+  background-color: #1D1D1D;
+  max-width: 185px;
+
+}
+
+.btn-primary{
+  width: 100%;
+}
+
+.txt-assitir{
+  color: #ffad05;
+  margin-top: 15px;
+  font-family:  Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 43px;
+}
+
+.carousel-control-prev{
+  justify-content: flex-start;
+}
+.carousel-control-next{
+  justify-content: flex-end;
+}
+
+.card-title, .card-text{
+  color: #F7F0F5;
+}
+
+.btn-primary{
+  background-color: #1D1D1D;
+  color: #3E78B2;
+  align-items: flex-end;
+  width: 80%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.slide-text{
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
+}

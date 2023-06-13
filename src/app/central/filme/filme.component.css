@@ -1,0 +1,96 @@
+.container-obra-geral{
+  padding-left: 4.5vh;
+  padding-right: 4.5vh;
+}
+
+/*nome-nota*/
+.nome-nota{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5vh;
+}
+
+.nome-obra, .nota-obra{
+  display: flex;
+
+}
+
+.nome-obra-texto{
+  padding-right: 1.5vh;
+  color: #F7F0F5;
+}
+.posicao-texto{
+  color: #167e02;
+}
+
+.nota-obra-texto{
+  padding-right: 3vh;
+  padding-left: 1vh;
+  color: #FFC217;
+}
+
+.fa-star{
+  padding-top: 0.6vh;
+}
+
+#btn-avaliar{
+  height: 3.5vh;
+  padding-top: 0.1vh;
+  background-color: #141414;
+  color: #ffad05;
+  border: 1px solid #ffad05;
+}
+#btn-avaliar:hover{
+  background-color: #ffaa006c;
+}
+/*img e infos*/
+
+.container-info-obra{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.2vh;
+}
+
+.container-img-info{
+  display: flex;
+}
+
+.img-obra{
+  margin-right: 15px;
+  border: 1px solid black;
+  height: 41.5vh;
+}
+
+.info-obra{
+  color: #F7F0F5;
+}
+
+.ad-info-obra{
+  background-color: black;
+  width: 31.3vh;
+  height: 41.5vh;
+  justify-content: flex-end;
+}
+
+/*Sinopse*/
+
+#btn-sinopse, #btn-adicionar{
+  margin-top: 2vh;
+  background-color: #141414;
+  color: #3E78B2;
+}
+
+#btn-sinopse:hover, #btn-adicionar:hover{
+  background-color: #007af341;
+}
+
+.card-body{
+  background-color: #141414;
+  color: #F7F0F5;
+}
+
+
+
+#star1, #star2, #star3, #star4{
+  color: #ffad05;
+}

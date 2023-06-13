@@ -1,0 +1,36 @@
+#ranking-text{
+  color: #FFC217;
+  font-size: x-large;
+  padding-bottom: 0.5vh;
+}
+
+.paginacao{
+  padding-left: 69.1vh;
+  margin-right: 70vh;
+}
+
+
+.img-fluid{
+  max-width: 20vh;
+  margin-right: 2vh;
+}
+
+.table{
+  max-width: 150vh;
+  margin-left: 6vh;
+  margin-right: 5vh;
+}
+
+td, tr, th{
+  display: flex;
+  background-color: #141414;
+  color: #F7F0F5;
+}
+
+#container-ranking{
+  padding-top: 3vh;
+}
+
+.sinopse{
+  color: #b3b2b2;
+}
