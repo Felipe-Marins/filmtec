@@ -17,7 +17,7 @@
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i> <strong> Favoritos</strong> </a>
+      <a class="nav-link" [routerLink]="['/lista-favoritos']"><i class="fa-regular fa-heart"> </i><strong>Favoritos</strong> </a>
       <a class="nav-link" [routerLink]="['/login']"><strong>Fazer Login</strong></a>
     </div>
   </nav>
@@ -28,6 +28,8 @@
     <router-outlet></router-outlet>
   </main>
 </section>
+
+
 
 <footer class="mt-2 p-2 text-center">
   <div class="container-fluid-footer">
